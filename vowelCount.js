@@ -1,6 +1,6 @@
 function getCount(str) {
   const regex = /[aeiou]/g;
-  return str.match(regex).length || [];
+  return (str.match(regex) || []).length;
 }
 // Return the number (count) of vowels in the given string.
 
